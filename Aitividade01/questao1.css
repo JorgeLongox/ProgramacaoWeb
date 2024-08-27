@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    font-style: italic;
+    background-color: #e47d7d;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+p {
+    display: inline;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid #ffb9b9;
+    border-radius: 10px;
+    background-color: rgb(92, 49, 49);
+    color: #f3c1c1;
+}
