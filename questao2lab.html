@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questao2lab</title>
+    <style>
+        body {
+            font-family: Andale Mono, monospace;
+            background-color: #3c3ffc;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .card {
+            display: flex;
+            align-items: center ;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 500px;
+            padding: 16px;
+            gap: 16px;
+        }
+
+        .profile-pic {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+
+        .profile-pic img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .profile-info {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .profile-info h3 {
+            margin: 0;
+            font-size: 18px;
+            color: #333;
+        }
+
+        .profile-info p {
+            margin: 4px 0 0;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="profile-pic">
+            <img src="https://i.pinimg.com/564x/c6/36/83/c6368320d8ad364c7c8a8bd05ad4cd35.jpg" alt="Foto de Perfil">
+        </div>
+        <div class="profile-info">
+            <h3>Voldemort</h3>
+            <p>Desgraçado sem nariz e do mal.</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="profile-pic">
+            <img src="https://i.pinimg.com/736x/f7/53/38/f75338daeb9f40f3d1fb5bce328d5d14.jpg" alt="Foto de Perfil">
+        </div>
+        <div class="profile-info">
+            <h3>Harry Potter</h3>
+            <p>Batalhou contra Voldemort em Relíquias da Morte.</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="profile-pic">
+            <img src="https://i.pinimg.com/564x/56/59/10/5659107c808831be11215fc76ee52607.jpg" alt="Foto de Perfil">
+        </div>
+        <div class="profile-info">
+            <h3>Hermione Granger</h3>
+            <p>Socou o rosto do Malfoy.</p>
+        </div>
+    </div>
+</body>
+</html>

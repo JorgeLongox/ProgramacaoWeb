@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>questao3lab</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: 200px 1fr 200px;
+            grid-template-rows: auto 1fr auto;
+            grid-template-areas:
+                "left-bar main right-bar"
+                "left-bar main right-bar"
+                "footer footer footer";
+            height: 100vh;
+            gap: 20px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .left-bar {
+            grid-area: left-bar;
+            background-color: #000000;
+            color: white;
+            padding: 20px;
+        }
+
+        .main {
+            grid-area: main;
+            background-color: #000000;
+            color: #f0f0f0;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .right-bar {
+            grid-area: right-bar;
+            background-color: #000000;
+            color: #f0f0f0;
+            padding: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="left-bar">Left bar</div>
+        <div class="main">Main content -- grid é muito confuso</div>
+        <div class="right-bar">Right bar</div>
+    </div>
+</body>
+</html>

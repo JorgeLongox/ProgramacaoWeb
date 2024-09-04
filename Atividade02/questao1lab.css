@@ -13,9 +13,17 @@ header {
     padding: 10px;
 }
 
+.SB{
+    display: flex;
+    justify-content: space-around;
+    padding-right: 40px;
+    margin: 15px;
+    margin-left: 15px;
+}
 
 main{
 
+    flex-direction: row;
     display: flex;
     justify-content: space-around;
     position: absolute;
